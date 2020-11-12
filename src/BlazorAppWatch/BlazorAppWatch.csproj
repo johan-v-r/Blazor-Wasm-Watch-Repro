@@ -13,10 +13,11 @@
 
 	<ItemGroup>
 		<!-- extends watching group to include *.scss files & _try_ to remove *.css -->
-		<Watch Include="**\*.scss" Exclude="**\*.css" />
+		<Watch Include="**\*.scss" Exclude="**\*.css;**\*.razor" />
 		
 		<Watch Remove="Pages\Counter.razor.css" />
     <Watch Remove="**\*.css" />
+    <Watch Remove="App.razor" />
 		
 	</ItemGroup>
 
