@@ -2,7 +2,7 @@
 
 This repo serves as an example to reproduce the following `dotnet watch` issues:
 
-1. Exclude/Remove watched files (configured in `csproj`) not honered.
+1. Exclude/Remove watched files (configured in `csproj`) not honored.
 1. Saving `scss` files in different folders cause the watch to loop infinitely.
 
 These issues were picked up in a different (work) project, and this is the simplest & closest solution to replicate from a _File -> New_ scaffold.
