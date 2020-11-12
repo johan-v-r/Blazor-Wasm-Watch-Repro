@@ -12,10 +12,11 @@
   </ItemGroup>
 
 	<ItemGroup>
-		<!-- extends watching group to include *.js files -->
+		<!-- extends watching group to include *.scss files & _try_ to remove *.css -->
 		<Watch Include="**\*.scss" Exclude="**\*.css" />
 		
 		<Watch Remove="Pages\Counter.razor.css" />
+    <Watch Remove="**\*.css" />
 		
 	</ItemGroup>
 
